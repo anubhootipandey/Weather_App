@@ -1,38 +1,62 @@
-.App {
+.weather-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 50px auto;
+}
+
+.app-name {
   text-align: center;
+  margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-name span {
+  font-size: 1.2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.city-search {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.city-name {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.city-name h2 {
+  font-size: 24px;
+}
+
+.date {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.temperature-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.deg {
+  font-size: 0.8em;
+}
+
+.wind-details {
+  text-align: center;
+  margin-top: 20px;
 }
