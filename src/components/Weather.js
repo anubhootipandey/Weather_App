@@ -11,9 +11,6 @@ function Weather() {
   });
 
   const toDate = () => {
-    // let date = new Date();
-    // const today = date.toDateString();
-    // return today;
     const months = [
       'January',
       'February',

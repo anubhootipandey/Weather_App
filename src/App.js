@@ -1,10 +1,10 @@
 import React from 'react'
-import Weather from './components/Weather'
+import WeatherForecast from './components/WeatherForecast'
 
 const App = () => {
   return (
     <div>
-      <Weather />
+      <WeatherForecast />
     </div>
   )
 }
