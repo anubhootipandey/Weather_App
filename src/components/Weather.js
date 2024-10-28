@@ -46,10 +46,6 @@ function Weather() {
       event.preventDefault();
       setQuery('');
       setWeather({ ...weather, loading: true });
-      const url = 'https://api.openweathermap.org/data/2.5/weather';
-      const appid = 'f00c38e0279b7bc85480c3fe775d518c';
-      //console.log('Enter');
-
       await axios
         .get(url, {
           params: {
